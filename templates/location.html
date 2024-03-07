@@ -1,0 +1,32 @@
+{% extends "layout.html"%}
+
+{% block content %}
+
+<h2>Perfil da Localização</h2>
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Tipo</th>
+                    <th>Dimensão</th>
+                    <th>Personagens nesta Localização:</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>{{ location.name }}</td>
+                    <td>{{ location.type }}</td>
+                    <td>{{ location.dimension }}</td>
+                    <td>
+                        <ul>
+                            {% for character_id, character_name in characters.items() %}
+                            <li><a href="/profile/{{ character_id }}">{{ character_name }}</a></li>
+                            {% endfor %}
+                        </ul>
+                    </td>
+                </tr>                
+            </tbody>
+        </table>
+    </div>
+{% endblock %}

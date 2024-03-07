@@ -1,0 +1,42 @@
+﻿{% extends "layout.html" %}
+
+{% block content %}
+
+<h2>Perfil do Episódio</h2>
+<div class="table-responsive">
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Data de Lançamento</th>
+                <th>Código</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>{{episode.name}}</td>
+                <td>{{episode.air_date}}</td>
+                <td>{{episode.id}}</td>
+            </tr>                
+        </tbody>
+    </table>
+</div>
+
+<div class="table-responsive">
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th><h4>Personagens que aparecem no episódio:</h4></th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for character_id, character_name in characters.items() %}
+            <tr>
+                <td><a href="/profile/{{character_id}}">{{character_name}}</a></td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+
+{% endblock %}

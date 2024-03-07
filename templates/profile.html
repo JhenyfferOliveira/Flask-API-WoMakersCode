@@ -1,0 +1,44 @@
+{% extends "layout.html"%}
+
+{% block content %}
+  <div class="row" style="padding: 30px; text-align: center; ">
+    
+      <div class="col-sm-3 col-6">
+        <img src="{{profile.image}}" alt="{{profile.name}}" class="img-fluid img-thumbnail">
+      </div>
+      <div class="col-sm-3 col-6">
+        <h1 class="h5">{{profile.name}}</h3>
+        <h1 class="h5">{{profile.species}}</h3>
+        <h1 class="h5">{{profile.gender}}</h3>
+        <h3>Origem</h3>
+        {% set url_parts = profile.origin.url.split('/') %}
+        {% set origin_id = url_parts|last %}
+          <p>
+            <a href="/location/{{origin_id}}" class="btn btn-primary" style=" background-color: #88e23b; color: #043c6e;">
+              {{profile.origin.name}}
+            </a>
+          </p>
+        <h3>Localização</h3>
+        {% set url_parts1 = profile.location.url.split('/') %}
+        {% set location_id = url_parts1|last %}
+          <p>
+            <a href="/location/{{location_id}}" class="btn btn-primary" style=" background-color: #88e23b; color: #043c6e;">
+              {{profile.location.name}}
+            </a>
+          </p>
+        <h3>Episódios</h3>
+        {% for episode in profile.episode %}
+    
+          <div class="col-sm-3 col-6">
+            <p>
+              <a href="/episode/{{episode.partition('/episode/')[2]}}" class="btn btn-primary" style=" background-color: #88e23b; color: #043c6e;">
+                {{episode}}
+              </a>
+            </p>
+        </div>
+        {% endfor %}
+      </div>
+
+    
+    </div>
+{% endblock %}
