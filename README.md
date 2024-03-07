@@ -1,30 +1,19 @@
-<h1 align="center">
-    
-<p align="center">
-<img src= "https://www.phpit.com.br/storage/2017/10/womakers.jpg" width="50%" height="30%"/>
+﻿# Consumo de API com Flask - Desafio Rick and Morty
+### Squad Hady Lamarr
+ 
+Código desenvolvido para consumo de API com Flask, usando a API pública do Rick and Morty. A documentação pode ser encontrada [aqui](https://rickandmortyapi.com/documentation).
 
+O projeto visou cumprir os requisitos de **APIs** do bootcamp de Back-end Python e Django da **WoMakersCode**, patrocinado pelo **iFood** e pela **Microsoft**. O projeto foi realizado em fevereiro de 2024.
 
-<p align="center"><b> Bootcamp Python e Django - WoMakersCode </b> <p>
+## Ferramentas utilizadas
 
-<h3 align="center"><b>Desafio Rick and Morty – Consumo de API com Flask</b> </h3>
-<h3 align="center"><b>Squad Hedy Lamar</b> </h3>
-Este projeto consiste em um exercício de consumo de API com Flask, usando a API do Rick and Morty. 
+| Python | Flask | Git | 
+| ------ | --- | --- | 
+| <img src="https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/files/python-logo-only.svg" width="100"> | <img src="https://cdn.freebiesupply.com/logos/large/2x/flask-logo-png-transparent.png" width="100"> | <img src="https://upload.wikimedia.org/wikipedia/commons/c/c2/GitHub_Invertocat_Logo.svg" width="100"> |
 
-A documentação da API pode ser encontrada [aqui](https://rickandmortyapi.com/documentation).
+## Para ver funcionando
 
-## Participantes:
-- Amanda Dias Alves Ferreira
-- Gabriella Moreira Mansur Mesquita
-- Fernanda Suominsky
-- Lais Rodrigues Zahran
-- Raquel Soares Pedroso
-- Jhenyffer Oliveira
-- Sara Neves
-- Martha Lacerda Emidio Da Silva
-- Mariana Santana Amaral
-
-
-<p align="center">
-<img src= "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="7%" height="1%"/>
-<img src= "https://cdn.freebiesupply.com/logos/large/2x/flask-logo-png-transparent.png" width="5%" height="1.5%"/>
-</p>
+1.  Clone esse repositório na pasta desejada:
+~~~
+git clone https://github.com/JhenyfferOliveira/Flask-API-WoMakersCode
+~~~
