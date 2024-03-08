@@ -11,9 +11,6 @@ O projeto visou cumprir os requisitos de **APIs** do bootcamp de Back-end Python
 | ------ | ----- | --------- | ----- | 
 | <img src="https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/files/python-logo-only.svg" width="100"> | <img src="https://cdn.freebiesupply.com/logos/large/2x/flask-logo-png-transparent.png" width="100"> | <img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg" width="100"> | <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" width="100"> |
 
-## Para ver funcionando
+## Veja a aplicação em funcionamento
 
-1.  Clone esse repositório na pasta desejada:
-~~~
-git clone https://github.com/JhenyfferOliveira/Flask-API-WoMakersCode
-~~~
+https://github.com/JhenyfferOliveira/Flask-API-WoMakersCode/assets/140458083/92387ee6-7d87-4286-a3c5-fc7f25573e07
