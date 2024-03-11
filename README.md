@@ -3,6 +3,8 @@
  
 Código desenvolvido para consumo de API com Flask, usando a API pública do Rick and Morty. A documentação pode ser encontrada [aqui](https://rickandmortyapi.com/documentation).
 
+Clique [aqui](https://drive.google.com/file/d/1UzRtdZsEWyIkwpr4PlfVkqo9_oyDqcVu/view) e assista a apresentação do grupo.
+
 O projeto visou cumprir os requisitos de **APIs** do bootcamp de Back-end Python e Django da **WoMakersCode**, patrocinado pelo **iFood** e pela **Microsoft**. O projeto foi realizado em fevereiro de 2024.
 
 ## Ferramentas utilizadas
