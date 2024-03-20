@@ -15,4 +15,4 @@ O projeto visou cumprir os requisitos de **APIs** do bootcamp de Back-end Python
 
 ## Veja a aplicação em funcionamento
 
-https://github.com/JhenyfferOliveira/Flask-API-WoMakersCode/assets/140458083/92387ee6-7d87-4286-a3c5-fc7f25573e07
+https://github.com/JhenyfferOliveira/Flask-API-WoMakersCode/assets/140458083/52a281e4-177b-4820-87ea-b74aed73fcc4
