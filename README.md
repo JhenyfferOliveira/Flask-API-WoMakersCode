@@ -1,4 +1,4 @@
-﻿# Consumo de API com Flask - Desafio Rick and Morty
+﻿# Consumo de API com Flask – Desafio Rick and Morty
 ### Squad Hady Lamarr
  
 Código desenvolvido para consumo de API com Flask, usando a API pública do Rick and Morty. A documentação pode ser encontrada [aqui](https://rickandmortyapi.com/documentation).
