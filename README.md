@@ -1,9 +1,11 @@
 ﻿# Desafio Rick and Morty – Consumo de API com Flask
 ### Squad Hady Lamarr
 
-Código desenvolvido para cumprir os requisitos de **APIs** do bootcamp de Back-end Python e Django da **WoMakersCode**, patrocinado pelo **iFood** e pela **Microsoft**, consistiu em criar um sistema para consumo da API pública do Rick and Morty utilizando Flask. O projeto foi elaborado em fevereiro de 2024.
+Esse projeto consistiu em criar um sistema para consumo da API pública do Rick and Morty utilizando Flask. O projeto foi elaborado em março de 2024.
 
 A documentação pode ser encontrada [aqui](https://rickandmortyapi.com/documentation). Clique [aqui](https://drive.google.com/file/d/1UzRtdZsEWyIkwpr4PlfVkqo9_oyDqcVu/view) e assista a apresentação do grupo.
+
+Código desenvolvido para cumprir os requisitos de **APIs** para o bootcamp **Back-end Python e Django** da **WoMakersCode**, patrocinado pelo **iFood** e pela **Microsoft**. 
 
 ---
 
