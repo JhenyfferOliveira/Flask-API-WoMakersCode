@@ -1,12 +1,20 @@
 ﻿# Consumo de API com Flask – Desafio Rick and Morty
 ### Squad Hady Lamarr
- 
-Código desenvolvido para consumo de API com Flask, usando a API pública do Rick and Morty. A documentação pode ser encontrada [aqui](https://rickandmortyapi.com/documentation).
 
-Clique [aqui](https://drive.google.com/file/d/1UzRtdZsEWyIkwpr4PlfVkqo9_oyDqcVu/view) e assista a apresentação do grupo.
+Código desenvolvido para cumprir os requisitos de **APIs** do bootcamp de Back-end Python e Django da **WoMakersCode**, patrocinado pelo **iFood** e pela **Microsoft**, consistiu em criar um sistema para consumo da API pública do Rick and Morty utilizando Flask. O projeto foi elaborado em fevereiro de 2024.
 
-O projeto visou cumprir os requisitos de **APIs** do bootcamp de Back-end Python e Django da **WoMakersCode**, patrocinado pelo **iFood** e pela **Microsoft**. O projeto foi realizado em fevereiro de 2024.
+A documentação pode ser encontrada [aqui](https://rickandmortyapi.com/documentation). Clique [aqui](https://drive.google.com/file/d/1UzRtdZsEWyIkwpr4PlfVkqo9_oyDqcVu/view) e assista a apresentação do grupo.
 
+---
+
+## Características Principais
+
++ **Utilização do Flask para Consumo de API:** O projeto emprega o framework Flask para consumo de uma API, possibilitando a obtenção e manipulação dos dados de forma eficiente.
++ **Implementação de Rotas e Templates:** Foram adicionadas diversas rotas ao projeto para listar localizações, episódios e perfil do personagem. Essas rotas foram associadas a templates específicos, proporcionando um código mais organizado.
++ **Interligação de Dados através de Links:** O sistema foi configurado para interligar informações relacionadas, como localizações, episódios e personagens. Por meio dos links presentes, a navegação pelo universo de Rick and Morty é simples e intuitiva.
++ **Expansão das Funcionalidades da API:** Além de consumir os dados básicos da API, o projeto acrescenta funcionalidades extras, como a exibição de informações detalhadas sobre localizações e episódios, enriquecendo as informações disponíveis.
+
+---
 
 ## Ferramentas utilizadas
 
